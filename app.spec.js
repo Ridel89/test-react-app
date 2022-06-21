@@ -1,6 +1,6 @@
 import React from 'react';
 import { shallow } from 'enzyme';
-import App from './App';
+import App from './src/App';
  
 test('should not show the message on mount', () => {
     const wrapper = shallow(<App />);

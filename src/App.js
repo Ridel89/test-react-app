@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import './App.css';
  
 function App() {
-  const [ show, setShow ] = useState();
+  const [ show, setShow ] = useState(true);
   return (
     <div className="App">
       <button className="hello-button" onClick={() => setShow(!show)} >{show ? 'Reset' : 'Say Hello'}</button>
